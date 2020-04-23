@@ -20,6 +20,12 @@ def left_join(phrases: tuple) -> str:
       i = i + 1
     return str
 
+def left_join(phrases):
+    """
+        Join strings and replace "right" to "left"
+    """
+    return (",".join(phrases)).replace("right","left")
+
 if __name__ == '__main__':
     print('Example:')
     print(left_join(("left", "right", "left", "stop")))
