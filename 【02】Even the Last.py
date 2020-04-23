@@ -18,7 +18,14 @@ def checkio(array: list) -> int:
         last = item
         i = i+1
     return total*last
-        
+
+def checkio1(array: list) -> int:
+    """
+        sums even-indexes elements and multiply at the last
+    """
+    if len(array) == 0: return 0
+    return sum(array[0::2]) * array[-1]
+
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
     print('Example:')
