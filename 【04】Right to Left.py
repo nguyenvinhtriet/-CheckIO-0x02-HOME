@@ -4,6 +4,7 @@
 # @Author  : trietnv
 # @Date    : 2020-04-23
 # @CSDN    : 
+# @Desc    : The text as a comma-separated string.
 # @FileName: 【04】Right to Left.py
 # =====================================
 def left_join(phrases: tuple) -> str:
