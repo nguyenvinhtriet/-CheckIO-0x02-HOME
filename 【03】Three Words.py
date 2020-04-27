@@ -5,6 +5,7 @@
 # @Author  : trietnv
 # @Date    : 2020-04-27
 # @CSDN    : 
+# @Desc    : How to discern words and numbers.
 # @FileName: 【03】Three Words.py
 # =====================================
 def checkio(words: str) -> bool:
